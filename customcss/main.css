@@ -186,8 +186,13 @@ ul p{
 
 .fourth {
     height: 50%;
-    background-image: url(img/bg.png);
+    background-image: url(customcss/img/bg.png);
     max-width: 100%;
+    border-width: 1px black;
 }
-
+.fourth img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
