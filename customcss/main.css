@@ -1,3 +1,25 @@
+/* WebFont loading via CSS*/
+@font-face {
+    font-family: 'danielregular';
+    src: url('webfonts/daniel/daniel-webfont.eot');
+    src: url('webfonts/daniel/daniel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/daniel/daniel-webfont.woff') format('woff'),
+         url('webfonts/daniel/daniel-webfont.ttf') format('truetype'),
+         url('webfonts/daniel/daniel-webfont.svg#danielregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('webfonts/roboto/Roboto-Regular-webfont.eot');
+    src: url('webfonts/roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/roboto/Roboto-Regular-webfont.woff') format('woff'),
+         url('webfonts/roboto/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('webfonts/roboto/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Fisrt strip of the page or first div*/
 .first {
     background-color: #219fd1; 
     height: 67px;
@@ -15,7 +37,6 @@
     margin: 0;
     
 }
-
 /*Top right delete button*/
 button.btn.btn-link {
     float: right;
@@ -29,6 +50,7 @@ button.btn.btn-link {
 span{
      color: rgba(255, 255, 255, 0.71);
 }
+
 
 /*The new sigil*/
 .stamp{
@@ -166,6 +188,7 @@ ul.shop-icons {
     content:',';
 }
 .hovblue:hover{
+    transition: 2s ease;
     background-color: #219fd1;
 }
 
@@ -185,6 +208,8 @@ ul.shop-icons {
     width: 15%;
     margin: 0;
 }
+
+/* Navigation with maybe dropdown on the top of the page*/
 .third {
      height: 157px;
      background-color: white;
@@ -200,7 +225,7 @@ ul p{
     display: inline;
 }
 
-
+/*Section from header with photo and dialog boxes*/
 .fourth {
     height: 681 px;
     background-image: url(/img/mare-bg.png);
@@ -240,6 +265,8 @@ ul p{
     top: 550px;
     z-index: 1;
 }
+
+/*Article styling*/
 .articles {
     background-color: #D5CECE;
       text-align: center;
@@ -252,7 +279,7 @@ ul p{
 }
 
 
-/*Fifth Div From the whole layout*/
+/*Fifth Div From navigation*/
 .fifth p {
     text-align: center;
     font-family: 'robotoregular', sans-serif;
@@ -284,8 +311,6 @@ ul p{
     width: 55%;
     height: 44px;
 }
-
-
 button .left {
     margin-left: 50%;
     height: 44px;
@@ -295,30 +320,6 @@ button .right {
     margin-right: 45%;
     height: 44px;
     width: 50%;
-}
-
-/* Daniel Font loading via CSS*/
-@font-face {
-    font-family: 'danielregular';
-    src: url('webfonts/daniel/daniel-webfont.eot');
-    src: url('webfonts/daniel/daniel-webfont.eot?#iefix') format('embedded-opentype'),
-         url('webfonts/daniel/daniel-webfont.woff') format('woff'),
-         url('webfonts/daniel/daniel-webfont.ttf') format('truetype'),
-         url('webfonts/daniel/daniel-webfont.svg#danielregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-/*Roboto Font loading via CSS*/
-@font-face {
-    font-family: 'robotoregular';
-    src: url('webfonts/roboto/Roboto-Regular-webfont.eot');
-    src: url('webfonts/roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('webfonts/roboto/Roboto-Regular-webfont.woff') format('woff'),
-         url('webfonts/roboto/Roboto-Regular-webfont.ttf') format('truetype'),
-         url('webfonts/roboto/Roboto-Regular-webfont.svg#robotoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 
