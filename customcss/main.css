@@ -240,15 +240,15 @@ ul p{
     top: 550px;
     z-index: 1;
 }
-.row {
-      position: relative;
-       top: 250px;
-       left:10%;
-}
-.row div{
+.articles {
+    background-color: #D5CECE;
+      text-align: center;
+     position:relative;
+     margin-left:10%;
+}   
+.articles div{
     text-align: center;
     background-color: white;
-    border-color: black; 
 }
 
 
