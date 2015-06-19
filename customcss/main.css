@@ -195,4 +195,43 @@ ul p{
     margin-left: auto;
     margin-right: auto;
 }
+.fourth div{
+    height: 50px;
+    width: 350px;
+} 
+.left_top{
+ position: absolute;
+    left: 140px;
+    top: 400px;
+    z-index: 1;
+}
+.left_bottom{
+ position: absolute;
+    left: 180px;
+    top: 550px;
+    z-index: 1;
+}
+.right_top{
+ position: absolute;
+    right: 100px;
+    top: 400px;
+    z-index: 1;
+}
+.right_bottom{
+ position: absolute;
+    right: 150px;
+    top: 550px;
+    z-index: 1;
+}
+.row {
+      position: relative;
+       top: 250px;
+       left:10%;
+}
+.row div{
+    text-align: center;
+    background-color: white;
+    border-color: black; 
+}
+
 
