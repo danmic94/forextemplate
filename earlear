@@ -1,0 +1,54 @@
+[33mcommit 7ffe1d153c6766375ecedcbb12ab65f63496e754[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Fri Jun 19 13:03:04 2015 +0300
+
+    Small tweaks regarding margins
+
+[33mcommit c123d2987034f32a247e903ecc8e52b9f63b3d04[m
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Fri Jun 19 11:48:02 2015 +0300
+
+    image bug fixed
+
+[33mcommit a1fb17872e6c15031e29a5f60db2144dcbdfb868[m
+Merge: fd0adec 5450751
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Fri Jun 19 11:42:39 2015 +0300
+
+    Fixed merge conflict
+
+[33mcommit fd0adecfb516b33eeacc56689c34ba661b9ef8b8[m
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Fri Jun 19 11:32:37 2015 +0300
+
+    Structured div .row with 3 columns and text align.
+
+[33mcommit 54507514d414fa0fbd7c3e299e07a0a0f89041ad[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Fri Jun 19 11:24:06 2015 +0300
+
+    Finished .fifth and tweaked X icon plus shop list style and linked
+
+[33mcommit aa140dcae7b4c06360fa1a55cdca5e927af2ff83[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Thu Jun 18 16:36:33 2015 +0300
+
+    Finished the .fifth div with a text and button.
+
+[33mcommit 73ad407fac3b35a10be0e9de550e4c79f37b58eb[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Thu Jun 18 14:22:09 2015 +0300
+
+    Fixed person.png path
+
+[33mcommit 26807710d78c6baeb7bb4e065cb7e41a5f3d5c84[m
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Thu Jun 18 14:12:13 2015 +0300
+
+    Added person.png to div .four
+
+[33mcommit 734ac601d8989926ef1be789c45ce24e48010840[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Thu Jun 18 12:47:10 2015 +0300
+
+    Header almost finished
