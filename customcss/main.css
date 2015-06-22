@@ -283,6 +283,8 @@ ul p {
     margin-left: auto;
     margin-right: auto;
 }
+
+
 /*Article styling*/
 
 .articles {
@@ -339,13 +341,14 @@ i.icono-caretRightCircle {
 div.circle-wrap {
     position: absolute;
     left: 35%;
-    bottom: 150px;
+    bottom: 10.5em;
     border: 5px solid #219fd1;
-    height: 91px;
-    width: 91px;
+    height: 6.5em;
+    width: 6.5em;
     border-radius: 50%;
     margin: auto;
 }
+
 div.inner-circle {
     background: #219fd1;
     height: 5.5em;
