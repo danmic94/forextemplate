@@ -24,6 +24,7 @@
     background-color: #219fd1; 
     height: 67px;
     max-width: 100%;
+   box-shadow: 10px 0px 10px #888888;
 }
 .moto {
     font-size: 14px;
@@ -58,7 +59,7 @@ span{
     margin-left:5%;
 }
 .second {
-    height: 53px;
+    height: 60px;
     background-color: #f5f5f5;
 }
 
@@ -70,7 +71,7 @@ span{
     padding-right: 5px;
     border-right: solid 2px #e5e5e5;
 }
-div .shop-list{
+div.shop-list{
     width: 500 px;
     padding: 0;
 }
@@ -237,34 +238,6 @@ ul p{
     margin-left: auto;
     margin-right: auto;
 }
-.fourth div{
-    height: 50px;
-    width: 350px;
-} 
-.left_top{
- position: absolute;
-    left: 140px;
-    top: 400px;
-    z-index: 1;
-}
-.left_bottom{
- position: absolute;
-    left: 180px;
-    top: 550px;
-    z-index: 1;
-}
-.right_top{
- position: absolute;
-    right: 100px;
-    top: 400px;
-    z-index: 1;
-}
-.right_bottom{
- position: absolute;
-    right: 150px;
-    top: 550px;
-    z-index: 1;
-}
 
 /*Article styling*/
 .articles {
@@ -278,6 +251,24 @@ ul p{
 .articles div{
     text-align: center;
     background-color: white;
+    box-shadow: 10px 0px 10px #888888;
+
+}
+div.wrap {
+    border: 5px solid #219fd1;
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    border-radius: 50%;
+}
+
+div.inner {
+    background: #219fd1;
+    height: 380px;
+    width: 380px;
+    border-radius: 50%; 
+    margin: auto;
+    margin-top: 10px;
 }
 
 

@@ -88,13 +88,15 @@
 
         
         <div class="fourth">
-                <img  class="left_top" src="img/left-top.png"/>
-                <img class="left_bottom"src="img/left-bottom.png"/>
-                <img src="img/people.png"/>
-                <img class="right_top"src="img/right-top.png"/>
-                <img class="right_bottom"src="img/right-bottom.png"/>
-
+            <ul class="bxslider">
+                <li>
+                    <img src="img/slider.png">
+                </li>
+                <li><img src="img/new.png" /></li>
+                <li><img src="img/logo.png" /></li>
+            </ul>
         </div>
+             
         
         <div class="fifth">
             
@@ -113,6 +115,7 @@
         
         <div class="articles">
              <div class="col-md-3">
+                <div class="wrap"><div class="inner"></div></div>
                 <h4>Advanced Seo Optimized</h4>
                 <p>Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo,tortor mauris condimentum nibh, ut fermentum massa justo sit amet</p>
                 <a href="#">Read more</a>
@@ -135,6 +138,14 @@
 
         <script src="js/jquery-1.11.3.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="js/jquery.bxslider.min.js"></script>
+        <link href="customcss/jquery.bxslider.css" rel="stylesheet" />
+        <script>
+   $(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+</script>
     </body>
 
     </html>
