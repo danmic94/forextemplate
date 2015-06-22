@@ -102,12 +102,7 @@ span {
     padding-right: 5px;
     border-right: solid 2px #e5e5e5;
 }
-<<<<<<< HEAD
-div.shop-list{
-=======
-
 div.shop-list {
->>>>>>> 72b601d9d3d09335ce01e082c44642887be236b0
     width: 500 px;
     padding: 0;
 }
@@ -288,42 +283,6 @@ ul p {
     margin-left: auto;
     margin-right: auto;
 }
-
-<<<<<<< HEAD
-=======
-.fourth div {
-    height: 50px;
-    width: 350px;
-}
-
-.left_top {
-    position: absolute;
-    left: 140px;
-    top: 400px;
-    z-index: 1;
-}
-
-.left_bottom {
-    position: absolute;
-    left: 180px;
-    top: 550px;
-    z-index: 1;
-}
-
-.right_top {
-    position: absolute;
-    right: 100px;
-    top: 400px;
-    z-index: 1;
-}
-
-.right_bottom {
-    position: absolute;
-    right: 150px;
-    top: 550px;
-    z-index: 1;
-}
->>>>>>> 72b601d9d3d09335ce01e082c44642887be236b0
 /*Article styling*/
 
 .articles {
@@ -387,7 +346,6 @@ div.circle-wrap {
     border-radius: 50%;
     margin: auto;
 }
-
 div.inner-circle {
     background: #219fd1;
     height: 5.5em;
