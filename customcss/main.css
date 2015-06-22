@@ -76,7 +76,7 @@ span {
     border-right: solid 2px #e5e5e5;
 }
 
-div .shop-list {
+div.shop-list {
     width: 500 px;
     padding: 0;
 }
@@ -343,13 +343,13 @@ ul p {
     height: 44px;
 }
 
-button .left {
+button.left {
     margin-left: 50%;
     height: 44px;
     width: 50%;
 }
 
-button .right {
+button.right {
     margin-right: 45%;
     height: 44px;
     width: 50%;
