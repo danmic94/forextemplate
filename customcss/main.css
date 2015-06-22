@@ -21,6 +21,32 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'robotobold';
+    src: url('webfonts/roboto_bold/Roboto-Bold-webfont.eot');
+    src: url('webfonts/roboto_bold/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/roboto_bold/Roboto-Bold-webfont.woff') format('woff'),
+         url('webfonts/roboto_bold/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('webfonts/roboto_bold/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('webfonts/roboto_medium/Roboto-Medium-webfont.eot');
+    src: url('webfonts/roboto_medium/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/roboto_medium/Roboto-Medium-webfont.woff') format('woff'),
+         url('webfonts/roboto_medium/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('webfonts/roboto_medium/Roboto-Medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
 /*Fisrt strip of the page or first div*/
 
 .first {
@@ -298,19 +324,68 @@ ul p {
     position: relative;
     padding-left: 10%;
     padding-top: 10%;
-    height: 328px;
+    height: 425px;
+}
+div.articles img{
+    margin-left: 1%;
+    margin-bottom: 1%
+}
+div.articles a{
+    color: #219fd1;
+}
+div.articles h4{
+    margin-top: 50px;
+}
+.border-grey{
+    border: 1px solid #e3e3e3;
+    
 }
 
 .articles div {
+    font-family: 'robotomedium', sans-serif;
     text-align: center;
     background-color: white;
+}
+i.icono-caretRightCircle {
+    color: #219fd1;
+    height: 1px;
+}
+/*Circles style*/
+div.circle-wrap {
+    position: absolute;
+    left: 35%;
+    bottom: 150px;
+    border: 5px solid #219fd1;
+    height: 91px;
+    width: 91px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+div.inner-circle {
+    background: #219fd1;
+    height: 5.5em;
+    width: 5.5em;
+    border-radius: 50%; 
+    margin: auto;
+    margin-top: 0.13em;
+}
+.atomicon{
+    margin-top: -57px;
+    margin-left: -18px;
+}
+.analyticsicon{
+    margin-top: 1.5em;
+}
+.gridicon{
+    margin-top: -53px;
 }
 /*Fifth Div From navigation*/
 
 .fifth p {
     text-align: center;
     font-family: 'robotoregular', sans-serif;
-    font-size: 26px;
+    font-size: 1.63em;
     padding-top: 20px;
 }
 
@@ -319,12 +394,14 @@ ul p {
 }
 
 .fifth .left {
-    margin-left: 35%;
+    margin-left: 25%;
+    font-family: 'robotobold', sans-serif;
 }
 
 .fifth .right {
     background-color: transparent;
     color: #219fd1;
+    font-family: 'robotobold', sans-serif;
 }
 
 .fifth .right:hover {
@@ -341,16 +418,20 @@ ul p {
     margin-right: auto;
     width: 55%;
     height: 44px;
+    margin-bottom: 40px;
 }
 
 button.left {
+    font-family: 'robotoregular', sans-serif;
     margin-left: 50%;
     height: 44px;
-    width: 50%;
+    width: 25%;
+    background-color: #219fd1;
+    box-shadow: 0px 1px 0px #0883b3;
 }
 
 button.right {
-    margin-right: 45%;
+    font-family: 'robotoregular', sans-serif;
     height: 44px;
-    width: 50%;
+    width: 25%;
 }
