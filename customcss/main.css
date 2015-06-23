@@ -298,10 +298,12 @@ li a: hover{
       border: 1px solid #e3e3e3;
     margin-top: 70px;
 }
+/*
 div.articles img{
     margin-left: 1%;
     margin-bottom: 1%
 }
+*/
 div.articles a{
     color: #219fd1;
 }
@@ -362,15 +364,8 @@ div.inner-circle {
     margin: auto;
     margin-top: 0.15em;
 }
-.atomicon{
-    margin-top: -57px;
-    margin-left: -18px;
-}
-.analyticsicon{
+.alignicon{
     margin-top: 1.5em;
-}
-.gridicon{
-    margin-top: -53px;
 }
 /*Fifth Div From navigation*/
 
