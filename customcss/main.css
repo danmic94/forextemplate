@@ -441,11 +441,18 @@ button.right {
 .navbar-toggle {
     border: 1px solid silver;
 }
-div.section p{
+div.section p.heading{
+    font-family: 'robotoregular', sans-serif;
     text-align: center;
-    font-size: 26px;
+    font-size:26px;
     padding-top: 30px;
     padding-bottom: 10px;
+}
+div.section p.text{
+    font-family: 'robotoregular', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    font-size:13px;
 }
 hr {
     border: 0;
