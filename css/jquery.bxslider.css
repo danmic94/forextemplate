@@ -30,11 +30,11 @@
 ===================================*/
 
 .bx-wrapper .bx-viewport {
-	-moz-box-shadow: 0 0 0px #ccc;
-	-webkit-box-shadow: 0 0 0px #ccc;
-	box-shadow: 0 0 0px #ccc;
-	border:  0px solid #fff;
-	left: 0px;
+	-moz-box-shadow: 0 0 5px #ccc;
+	-webkit-box-shadow: 0 0 5px #ccc;
+	box-shadow: 0 0 5px #ccc;
+	border:  5px solid #fff;
+	left: -5px;
 	background: #fff;
 	
 	/*fix other elements on the page moving (on Chrome)*/
@@ -55,7 +55,7 @@
 /* LOADER */
 
 .bx-wrapper .bx-loading {
-	min-height: 400px;
+	min-height: 50px;
 	background: url(images/bx_loader.gif) center center no-repeat #fff;
 	height: 100%;
 	width: 100%;
@@ -69,11 +69,11 @@
 
 .bx-wrapper .bx-pager {
 	text-align: center;
-	font-size: 20em;
+	font-size: .85em;
 	font-family: Arial;
 	font-weight: bold;
 	color: #666;
-	padding-top: 100px;
+	padding-top: 20px;
 }
 
 .bx-wrapper .bx-pager .bx-pager-item,
@@ -87,9 +87,9 @@
 	background: #666;
 	text-indent: -9999px;
 	display: block;
-	width: 0px;
-	height: 0px;
-	margin: 5px 5px;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
 	outline: 0;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -176,12 +176,12 @@
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
 	text-align: left;
-	width: 100%;
+	width: 80%;
 }
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
 	right: 0;
-	width: 50px;
+	width: 35px;
 }
 
 /* IMAGE CAPTIONS */
@@ -199,6 +199,6 @@
 	color: #fff;
 	font-family: Arial;
 	display: block;
-	font-size: .100em;
+	font-size: .85em;
 	padding: 10px;
 }
