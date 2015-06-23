@@ -193,24 +193,24 @@
                 <div class="col-md-3">
                    <div class="bxsliders_bottom1">
                         <ul class="bxslider_two" >
-              
-<<<<<<< HEAD
                             <li><img src="img/testimonials.png"/> </li>
-                    </ul>
-            </div> 
-=======
-                                <li><img src="img/testimonials.png"/> </li>
-                                <li><img src="img/testimonials.png"/> </li>
-                                <li><img src="img/testimonials.png"/> </li>
-                        </ul>
-                    </div>
+                            <li><img src="img/testimonials.png"/> </li>
+                            <li><img src="img/testimonials.png"/> </li>
+                         </ul>
+                     </div> 
                 </div>
                 <div class="col-md-3"></div>
                 <div class="col-md-3"></div>
                 <div class="col-md-3"></div>
             </div>
         </div>
->>>>>>> b83a9f87c25f6884753ce33e114872fc1d227a7b
+</div>
+<div>
+    <div class="slider1">
+  <div class="slide"><img src="></div>
+  <div class="slide" class="container"><img src="></div>
+  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
+</div>
 </div>
     
         <script src="js/jquery.min.js"></script>
@@ -218,10 +218,18 @@
         <script src="js/jquery.bxslider.min.js"></script>
         <script>
    $(document).ready(function(){
-  $('.bxslider').bxSlider();
+  $('.bxslider').bxSlider({
+    pager:false
+  });
   $('.bxslider_two').bxSlider({
-    controls: true,
+    controls: false,
       pager: true,
+  });
+  $('.slider1').bxSlider({
+    slideWidth: 400,
+    minSlides: 2,
+    maxSlides: 3,
+    slideMargin: 10
   });
 });
 </script>
