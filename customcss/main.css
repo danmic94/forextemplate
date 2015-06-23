@@ -69,14 +69,14 @@
 }
 /*Top right delete button*/
 
-button.btn.btn-link {
+button.btn.btn-link {/*
     float: right;
     height: 50px;
     position: relative;
     width: 50px;
     right: 70px;
     bottom: 54px;
-    padding-top: 25px;
+    padding-top: 25px;*/
 }
 
 span {
@@ -85,8 +85,10 @@ span {
 /*The new sigil*/
 
 .stamp {
-    float: left;
-    margin-left: 5%;
+    /* float: left; */
+    /* margin-left: 5%; */
+    position: absolute;
+    left: -90px;
 }
 
 .second {
@@ -150,7 +152,7 @@ ul.shop-icons {
     overflow: hidden;
     margin-left: 2px;
     padding: 0;
-    padding-top: 13px;
+    padding-top: 15px;
     list-style: none;
 }
 
@@ -246,13 +248,13 @@ ul.shop-icons {
 
 .second .shop-list {
     display: inline-block;
-    width: 180px;
     margin: 0;
+    /* margin-right: 30px; */
 }
 /* Navigation with maybe dropdown on the top of the page*/
 
 .third {
-    height: 100px;
+    min-height: 100px;
     background-color: white;
 }
 
@@ -265,7 +267,7 @@ li a {
 }
 
 ul p {
-    color: blue;
+    color: rgb(33, 159, 209);
     display: inline;
 }
 /*Section from header with photo and dialog boxes*/
@@ -286,11 +288,13 @@ ul p {
 
 .articles {
     background-color: #f5f5f5;
-    text-align: center;
+}
+.article-container {
+    background: white;
     position: relative;
-    padding-left: 10%;
-    padding-top: 10%;
-    height: 425px;
+    padding: 50px 20px 20px 20px;
+      border: 1px solid #e3e3e3;
+    margin-top: 70px;
 }
 div.articles img{
     margin-left: 1%;
@@ -300,7 +304,7 @@ div.articles a{
     color: #219fd1;
 }
 div.articles h4{
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 .border-grey{
     border: 1px solid #e3e3e3;
@@ -312,7 +316,6 @@ div.container-col{
 .articles div {
     font-family: 'robotomedium', sans-serif;
     text-align: center;
-    box-shadow: 10px 0px 10px #888888;
 
 }
 div.wrap {
@@ -338,13 +341,15 @@ i.icono-caretRightCircle {
 /*Circles style*/
 div.circle-wrap {
     position: absolute;
-    left: 35%;
-    bottom: 10.5em;
+    left: 50%;
+    top: -45px;
+    margin-left: -45px;
+    /* bottom: 10.5em; */
     border: 5px solid #219fd1;
     height: 6.5em;
     width: 6.5em;
     border-radius: 50%;
-    margin: auto;
+    /* margin: auto; */
 }
 
 div.inner-circle {
@@ -379,7 +384,7 @@ div.inner-circle {
 }
 
 .fifth .left {
-    margin-left: 25%;
+    /* margin-left: 25%; */
     font-family: 'robotobold', sans-serif;
 }
 
@@ -401,16 +406,16 @@ div.inner-circle {
 .fifth .buttons {
     margin-left: auto;
     margin-right: auto;
-    width: 55%;
-    height: 44px;
+    width: 260px;
+    /* height: 44px; */
     margin-bottom: 40px;
 }
 
 button.left {
     font-family: 'robotoregular', sans-serif;
-    margin-left: 50%;
+    /* margin-left: 50%; */
     height: 44px;
-    width: 25%;
+    /* width: 25%; */
     background-color: #219fd1;
     box-shadow: 0px 1px 0px #0883b3;
 }
@@ -418,5 +423,19 @@ button.left {
 button.right {
     font-family: 'robotoregular', sans-serif;
     height: 44px;
-    width: 25%;
+    /* width: 25%; */
+}
+
+.close-button {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: silver;
+}
+
+.navbar-toggle {
+    border: 1px solid silver;
 }

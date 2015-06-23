@@ -13,67 +13,76 @@
         <!--  Navigation Section made of 5 divs       -->
 
         <div class="first">
-            <img class="stamp" src="img/new.png">
-            <p class="moto">This is an awesome tagline section, here you can write your news, highlighted messages, or disable it !</p>
-            <button type="button" class="btn btn-link" aria-label="Right Align">
-                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-            </button>
-
+            <div class="container" style="position: relative;">
+                <img class="stamp hidden-xs" src="img/new.png">
+                <p class="moto">This is an awesome tagline section, here you can write your news, highlighted messages, or disable it !</p>
+                <button type="button" class="btn btn-link close-button" aria-label="Right Align">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </button>
+            </div>
 
         </div>
         <div class="second">
-            <div class="social-container">
-                <ul class="soc">
-                    <li>
-                        <a class="soc-facebook hovblue" href="#"></a>
-                    </li>
-                    <li>
-                        <a class="soc-twitter hovblue" href="#"></a>
-                    </li>
-                    <li>
-                        <a class="soc-google hovblue" href="#"></a>
-                    </li>
-                    <li>
-                        <a class="soc-dribbble hovblue" href="#"></a>
-                    </li>
-                    <li>
-                        <a class="soc-vimeo hovblue" href="#"></a>
-                    </li>
-                    <li>
-                        <a class="soc-skype hovblue" href="#"></a>
-                    </li>
-                    <li>
-                        <a class="soc-linkedin hovblue" href="#"></a>
-                    </li>
-                    <li>
-                        <a class="soc-pinterest hovblue" href="#"></a>
-                    </li>
-                    <li>
-                        <a class="soc-rss soc-icon-last hovblue" href="#"></a>
-                    </li>
-                </ul>
+            <div class="container">
+                <div class="social-container">
+                    <ul class="soc">
+                        <li>
+                            <a class="soc-facebook hovblue" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="soc-twitter hovblue" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="soc-google hovblue" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="soc-dribbble hovblue" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="soc-vimeo hovblue" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="soc-skype hovblue" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="soc-linkedin hovblue" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="soc-pinterest hovblue" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="soc-rss soc-icon-last hovblue" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="shop-list">
+                    <ul class="shop-icons">
+                        <li><a href="#"><i class="fa fa-shopping-cart fa-2x"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-globe fa-2x"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-lock fa-2x"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-search fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
-
-
-            <div class="shop-list">
-                <ul class="shop-icons">
-                    <li><a href="#"><i class="fa fa-shopping-cart fa-2x"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-globe fa-2x"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-lock fa-2x"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-search fa-2x"></i></a>
-                    </li>
-                </ul>
-            </div>
-
         </div>
 
         <div class="third" class="container">
-            <div class="collapse navbar-collapse align-third">
                 <a class="navbar-brand" href="#page-top"><img src="img/logo.png">
-                </a>
+                </a>    
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse align-third" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
@@ -135,34 +144,42 @@
 
         <!-- Middle Content Area  -->
 
-    <div class="articles">
-            
-            <div class="col-md-3 border-grey">
-                <div class="circle-wrap"><div class="inner-circle"><img src="img/analytics.png" class="analyticsicon"></div></div>
-                <h4>Advanced Seo Optimized</h4>
-                <p>Donec id elit non mi porta gravida at eget metus.
-                    Fusce dapibus, tellus ac cursus commodo,tortor mauris condimentum nibh, ut fermentum massa justo sit amet</p>
-                <a href="#">Read more<img src="img/read.png"></a>
+    <div class="articles ">
+        <div class="container" style=" padding: 50px 0;">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="article-container">
+                        <div class="circle-wrap"><div class="inner-circle"><img src="img/analytics.png" class="analyticsicon"></div></div>
+                        <h4>Advanced Seo Optimized</h4>
+                        <p>Donec id elit non mi porta gravida at eget metus.
+                            Fusce dapibus, tellus ac cursus commodo,tortor mauris condimentum nibh, ut fermentum massa justo sit amet</p>
+                        <a href="#">Read more<img src="img/read.png"></a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="article-container">
+                        <div class="circle-wrap"><div class="inner-circle"></div><img src="img/jimmy-motherfucking-neutron.png" class="atomicon"></div>
+                        <h4>Dedicated Customer Support</h4>
+                        <p>Donec id elit non mi porta gravida at eget metus.
+                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet</p>
+                        <a href="#">Read more<img src="img/read.png"></a>
+                    </div>
+                </div>
+
+               <div class="col-md-4">     
+                   <div class="article-container">
+                  <div class="circle-wrap"><div class="inner-circle"></div><img src="img/grid.png" class="gridicon"></div>      
+                        <h4>Regular Weekly Updates</h4>
+                        <p>Donec id elit non mi porta gravida at eget metus. 
+                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet</p>
+                        <a href="#">Read more<img src="img/read.png"></a>
+                    </div>
+                </div>
+              </div>
             </div>
-            
-        
-            <div class="col-md-3 border-grey">
-                <div class="circle-wrap"><div class="inner-circle"></div><img src="img/jimmy-motherfucking-neutron.png" class="atomicon"></div>
-                <h4>Dedicated Customer Support</h4>
-                <p>Donec id elit non mi porta gravida at eget metus.
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet</p>
-                <a href="#">Read more<img src="img/read.png"></a>
-            </div>
-            
-      <div class="container-col">
-           <div class="col-md-3 border-grey">      
-          <div class="circle-wrap"><div class="inner-circle"></div><img src="img/grid.png" class="gridicon"></div>      
-                <h4>Regular Weekly Updates</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. 
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet</p>
-                <a href="#">Read more<img src="img/read.png"></a>
-            </div>
-      </div>
+        </div>
     </div>
 
 
