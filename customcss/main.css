@@ -69,14 +69,14 @@
 }
 /*Top right delete button*/
 
-button.btn.btn-link {
+button.btn.btn-link {/*
     float: right;
     height: 50px;
     position: relative;
     width: 50px;
     right: 70px;
-    bottom: 50px;
-    padding-top: 25px;
+    bottom: 54px;
+    padding-top: 25px;*/
 }
 
 span {
@@ -85,8 +85,10 @@ span {
 /*The new sigil*/
 
 .stamp {
-    float: left;
-    margin-left: 5%;
+    /* float: left; */
+    /* margin-left: 5%; */
+    position: absolute;
+    left: -90px;
 }
 
 .second {
@@ -94,27 +96,30 @@ span {
     background-color: #f5f5f5;
 }
 /* Shop Icons CSS*/
-
+div.shop-list ul li a i {
+    color: #219fd1;
+}
 .shop-list .shop-icons li {
     height: 100%;
     display: inline;
     list-style: none;
     padding-right: 5px;
+    padding-left:  5px;
     border-right: solid 2px #e5e5e5;
 }
 div.shop-list {
     width: 500 px;
     padding: 0;
 }
-
 .shop-list {
     margin: 2%;
     float: right;
 }
 
 ul.shop-icons {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 13px;
 }
 /* Align third div with the logo and options*/
 
@@ -145,13 +150,10 @@ ul.shop-icons {
 
 .soc {
     overflow: hidden;
-    margin: 0;
-    margin-right: 10px;
+    margin-left: 2px;
     padding: 0;
-    padding-top: 13px;
-    padding-left: 20px;
+    padding-top: 15px;
     list-style: none;
-    width: 400px;
 }
 
 .soc li {
@@ -184,7 +186,6 @@ ul.shop-icons {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    margin-right: 10px;
     color: #ffffff;
     background-color: #cecece;
 }
@@ -247,13 +248,13 @@ ul.shop-icons {
 
 .second .shop-list {
     display: inline-block;
-    width: 15%;
     margin: 0;
+    /* margin-right: 30px; */
 }
 /* Navigation with maybe dropdown on the top of the page*/
 
 .third {
-    height: 100px;
+    min-height: 100px;
     background-color: white;
 }
 
@@ -266,7 +267,7 @@ li a {
 }
 
 ul p {
-    color:#219fd1;
+color: rgb(33, 159, 209);
     display: inline;
 }
 li a: hover{
@@ -290,11 +291,13 @@ li a: hover{
 /*Article styling*/
 .articles {
     background-color: #f5f5f5;
-    text-align: center;
+}
+.article-container {
+    background: white;
     position: relative;
-    padding-left: 10%;
-    padding-top: 10%;
-    height: 425px;
+    padding: 50px 20px 20px 20px;
+      border: 1px solid #e3e3e3;
+    margin-top: 70px;
 }
 div.articles img{
     margin-left: 1%;
@@ -304,18 +307,18 @@ div.articles a{
     color: #219fd1;
 }
 div.articles h4{
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 .border-grey{
     border: 1px solid #e3e3e3;
-    
+}
+div.container-col{
+    background: white;
 }
 
 .articles div {
     font-family: 'robotomedium', sans-serif;
     text-align: center;
-    background-color: white;
-    box-shadow: 10px 0px 10px #888888;
 
 }
 div.wrap {
@@ -341,21 +344,24 @@ i.icono-caretRightCircle {
 /*Circles style*/
 div.circle-wrap {
     position: absolute;
-    left: 35%;
-    bottom: 150px;
+    left: 50%;
+    top: -45px;
+    margin-left: -45px;
+    /* bottom: 10.5em; */
     border: 5px solid #219fd1;
-    height: 91px;
-    width: 91px;
+    height: 6.5em;
+    width: 6.5em;
     border-radius: 50%;
-    margin: auto;
+    /* margin: auto; */
 }
+
 div.inner-circle {
     background: #219fd1;
     height: 5.5em;
     width: 5.5em;
     border-radius: 50%; 
     margin: auto;
-    margin-top: 0.13em;
+    margin-top: 0.15em;
 }
 .atomicon{
     margin-top: -57px;
@@ -381,7 +387,7 @@ div.inner-circle {
 }
 
 .fifth .left {
-    margin-left: 25%;
+    /* margin-left: 25%; */
     font-family: 'robotobold', sans-serif;
 }
 
@@ -403,16 +409,16 @@ div.inner-circle {
 .fifth .buttons {
     margin-left: auto;
     margin-right: auto;
-    width: 55%;
-    height: 44px;
+    width: 260px;
+    /* height: 44px; */
     margin-bottom: 40px;
 }
 
 button.left {
     font-family: 'robotoregular', sans-serif;
-    margin-left: 50%;
+    /* margin-left: 50%; */
     height: 44px;
-    width: 25%;
+    /* width: 25%; */
     background-color: #219fd1;
     box-shadow: 0px 1px 0px #0883b3;
 }
@@ -420,5 +426,19 @@ button.left {
 button.right {
     font-family: 'robotoregular', sans-serif;
     height: 44px;
-    width: 25%;
+    /* width: 25%; */
+}
+
+.close-button {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: silver;
+}
+
+.navbar-toggle {
+    border: 1px solid silver;
 }
