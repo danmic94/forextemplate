@@ -58,7 +58,7 @@
 
 .moto {
     font-size: 14px;
-    font-family: "OpenSans";
+    font-family: "OpenSans", sans-serif;
     color: rgba(255, 255, 255, 0.71);
     font-style: italic;
     line-height: 2.143;
@@ -449,7 +449,7 @@ div.section p.heading{
     padding-bottom: 10px;
 }
 div.section p.text{
-    font-family: 'robotoregular', sans-serif;
+    font-family: "OpenSans", sans-serif;
     text-align: center;
     padding-top: 10px;
     font-size:13px;
