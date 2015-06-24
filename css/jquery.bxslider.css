@@ -133,7 +133,7 @@
 }
 
 .bx-wrapper .bx-controls-direction a.disabled {
-	display: none;
+	display: visible;
 }
 
 /* AUTO CONTROLS (START / STOP) */
