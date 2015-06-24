@@ -452,4 +452,23 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     width: 230px;
 }
+.work{
+    background-color: #f1f1f1; 
+}
+.work p{
+      margin: 40px 90px 20px;
+      font-weight: bold;
+}
+.slide img{
+    height:250px;
+}
+.undertext-slider span {
+ color: black;
+ margin-right:10px;
+}
 
+.undertext-slider {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}

@@ -199,76 +199,44 @@
                          </ul>
                      </div> 
                 </div>
-                <div class="col-md-3">
-                <h4>Web Development</h4>
-                  <ul>
-                    <li>Logo design</li>
-                    <li>Concept design</li>
-                    <li>Illustrations</li>
-                    <li>User experience design</li>
-                    <li>Design direction</li>
-                  </ul>
-                    <br>
-                <h4>Customer Support</h4>
-                  <ul>
-                    <li>Logo design</li>
-                    <li>Concept design</li>
-                    <li>Illustrations</li>
-                    <li>User experience design</li>
-                    <li>Design direction</li>
-                  </ul>
-                </div>
-                
-                
-                <div class="col-md-3">
-                <h4>Web Development</h4>
-                  <ul>
-                    <li>Logo design</li>
-                    <li>Concept design</li>
-                    <li>Illustrations</li>
-                    <li>User experience design</li>
-                    <li>Design direction</li>
-                  </ul>
-                    <br>
-                <h4>Customer Support</h4>
-                  <ul>
-                    <li>Logo design</li>
-                    <li>Concept design</li>
-                    <li>Illustrations</li>
-                    <li>User experience design</li>
-                    <li>Design direction</li>
-                  </ul>
-                </div>
-                
-                
-                <div class="col-md-3">
-                <h4>Web Development</h4>
-                  <ul>
-                    <li>Logo design</li>
-                    <li>Concept design</li>
-                    <li>Illustrations</li>
-                    <li>User experience design</li>
-                    <li>Design direction</li>
-                  </ul>
-                    <br>
-                <h4>Customer Support</h4>
-                  <ul>
-                    <li>Logo design</li>
-                    <li>Concept design</li>
-                    <li>Illustrations</li>
-                    <li>User experience design</li>
-                    <li>Design direction</li>
-                  </ul>
-                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
             </div>
         </div>
-    </div>
 </div>
-<div>
+<div class="work container-fluid">
+    <p>Our Latest Work / <a href="#">View All Work</a></p>
     <div class="slider1">
-  <div class="slide"><img src="></div>
-  <div class="slide" class="container"><img src="></div>
-  <div class="slide"><img src="http://placehold.it/350x150&text=FooBar3"></div>
+            <div class="slide">
+                <img src="img/work_slider/layer1.png">
+                <div class="undertext-slider">
+                    <span class="pull-left">Awesome Design</span>
+
+                    <span class="glyphicon glyphicon-share-alt pull-right"></span>
+                    <span class="glyphicon glyphicon-heart pull-right"></span>
+                    <div style="clearfix"></div>
+                </div>
+            </div>
+            <div class="slide">
+                    <img src="img/work_slider/layer2.png">
+                     <div class="undertext-slider">
+                        <span class="pull-left">Alone In The Dark</span>
+                        <span class="glyphicon glyphicon-share-alt pull-right"></span>
+                        <span class="glyphicon glyphicon-heart pull-right"></span>
+                        <div style="clearfix"></div>
+                 </div>
+            </div>
+            <div class="slide">
+                    <img src="img/work_slider/layer3.png">
+                    <div class="undertext-slider">
+                        <span class="pull-left">Creative Poster</span>
+                        <span class="glyphicon glyphicon-share-alt pull-right"></span>
+                        <span class="glyphicon glyphicon-heart pull-right"></span>
+                        <div style="clearfix"></div>
+                    </div>
+                    
+            </div>
 </div>
 </div>
     
@@ -278,17 +246,20 @@
         <script>
    $(document).ready(function(){
   $('.bxslider').bxSlider({
-    pager:false
+    pager:false,
   });
   $('.bxslider_two').bxSlider({
-    controls: false,
+    controls:false,
       pager: true,
   });
   $('.slider1').bxSlider({
-    slideWidth: 400,
+    adaptiveHeight: true,
+    slideWidth: 380,
     minSlides: 2,
     maxSlides: 3,
-    slideMargin: 10
+    slideMargin: 10,
+    pager:false,
+    controls:true,
   });
 });
 </script>
