@@ -471,4 +471,67 @@ hr {
     display: inline-block;
     width: 100%;
     padding: 10px;
+.circle{
+    display: inline-block;
+    position:relative;
+    background: #d3d2d2;;
+    width:50px;
+    height:50px;   
+    -webkit-border-radius: 50px;  
+    -moz-border-radius: 50px;  
+    border-radius: 50px;
+}
+.align-icons{
+    margin: 10px;
+}
+div.section .circle:hover {
+    background: #219fd1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.circle-container {
+      display: inline-block;
+      border: 1px solid transparent;
+      border-radius: 50%;
+      padding: 2px;
+}
+
+.circle-container:hover {
+      display: inline-block;
+      border: 1px solid rgb(33, 159, 209);
+      border-radius: 50%;
+      padding: 2px;
+}
+.allign-upper-ul{
+    position: absolute;
+    bottom: 120px;
+    left: 50px;
+}
+.heart{
+    margin-top: 14px;
+}
+.trophy{
+    margin-left: 12px;
+}
+.thumb{
+    margin-left: 13px;
+}
+.paper-plane{
+    margin-top: 13px;
+}
+div.section ul.dash li:before{
+    content: "\2014 \00a0";
+    color: #4CAED5;
+}
+div.section ul.dash li{
+    color: #b5b5b5;
+    font-size: 13px;
+}
+.list-allign{
+    position: relative;
+    top: -20px;
+    right: -30px;
+    list-style: none;
 }
