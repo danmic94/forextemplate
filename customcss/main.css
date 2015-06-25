@@ -613,3 +613,10 @@ div.our-features {
 div.form-horizontal {
     color: silver;
 }
+.our-features a{
+    color:#219fd1;
+}
+
+.nav.nav-tabs li:not(:last-child) a {
+    border-right: 1px solid #219fd1;
+}
