@@ -446,6 +446,7 @@ p.text{
     padding-top: 10px;
     font-size:13px;
     padding-bottom: 25px;
+    color: #c7c7c7;
 }
 hr {
     border: 0;
@@ -619,4 +620,19 @@ div.form-horizontal {
 
 .nav.nav-tabs li:not(:last-child) a {
     border-right: 1px solid #219fd1;
+}
+.feather {
+    background-image: url('..\img\icons\feather.png') no-repeat top right;
+}
+.borderless-form {
+    border-right: none;
+}
+.input-group-addon {
+    background-color: white;
+}
+.daniel {
+    font-family: 'danielregular';
+    text-align: center;
+    font-size: 23px;
+    color: #219fd1;
 }
