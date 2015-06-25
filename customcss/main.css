@@ -571,3 +571,29 @@ div.section{
 .slider1 .bx-pager .bx-pager-item a.active {
     background-color: #d3d2d2;
 }
+div.promoter {
+    height: 169px;
+    background-image: url(../img/promoter.png);
+    background-repeat: no-repeat;
+    font-family: 'robotoregular';
+}
+div.promoter div.container{
+    padding-top: 83px;
+}
+div.promoter p{
+    display: inline-block;
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    margin-right: 221px;
+    margin-bottom: 0;
+}
+div.promoter a.button-style{
+    height: 44px;
+    width: 144px;
+    background: transparent;
+    color: #F2F2F2;
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 10px;
+}

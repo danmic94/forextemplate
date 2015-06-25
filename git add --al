@@ -1,0 +1,343 @@
+[33mcommit bfb466b0723d0590b8aab15c4602544dee5d05d3[m
+Author: danmic94 <micdan1994@gmail.com>
+Date:   Thu Jun 25 12:30:57 2015 +0300
+
+    Tweaked the columns in the div.section to be responsive
+
+[33mcommit 8163f6232844949449826b2ecab7111c8f02a19d[m
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Wed Jun 24 17:29:23 2015 +0300
+
+    slider's controls
+
+[33mcommit 3d9587003a68104f91a4a11b4c7edb9396909cbf[m
+Merge: 9b5636b a5e2a38
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Wed Jun 24 13:19:12 2015 +0300
+
+    Fixed conflicts
+
+[33mcommit 9b5636bcbbf52ab3f42fd19573829da65b1545c1[m
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Wed Jun 24 13:16:07 2015 +0300
+
+    new slider
+
+[33mcommit a5e2a3886568759697e942d817c175d08e6a1ada[m
+Author: danmic94 <micdan1994@gmail.com>
+Date:   Wed Jun 24 12:30:36 2015 +0300
+
+    Finished the div.section
+
+[33mcommit fdcf632aaac4d92186c4e09751bd41684b664214[m
+Author: danmic94 <micdan1994@gmail.com>
+Date:   Wed Jun 24 11:31:54 2015 +0300
+
+    Almost finished the div.section
+
+[33mcommit bc1951b4998c98d57d7f9c17abbef0b860190e45[m
+Author: danmic94 <micdan1994@gmail.com>
+Date:   Tue Jun 23 16:58:36 2015 +0300
+
+    Last commit on job :))
+
+[33mcommit 7a1f051b883fc41336bea68e21be1c31c16a6be2[m
+Merge: 24ff0bc e91e630
+Author: danmic94 <micdan1994@gmail.com>
+Date:   Tue Jun 23 16:34:48 2015 +0300
+
+    Merge branch 'master' of gitlab.com:danmic94/forextemplate
+
+[33mcommit e91e63036869dd1ef20f3ecd26c55ac3d788916c[m
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Tue Jun 23 16:31:53 2015 +0300
+
+    New carousel
+
+[33mcommit 24ff0bcde9cf7a5a0726b6f5b1c4e57b53c18e30[m
+Author: danmic94 <micdan1994@gmail.com>
+Date:   Tue Jun 23 16:30:55 2015 +0300
+
+    Added pictures for work slider
+
+[33mcommit bf4291a058cc501b647ac9ff886e46c01e228199[m
+Merge: 4af26e8 b83a9f8
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Tue Jun 23 15:58:15 2015 +0300
+
+    fixed conflict
+
+[33mcommit 4af26e855d8ee0ebb94afd8430bb8326e2cc50d8[m
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Tue Jun 23 15:54:51 2015 +0300
+
+    Commit before pull
+
+[33mcommit b83a9f87c25f6884753ce33e114872fc1d227a7b[m
+Author: danmic94 <micdan1994@gmail.com>
+Date:   Tue Jun 23 15:53:57 2015 +0300
+
+    Alligned Icons
+
+[33mcommit 3a1f50b15ee0359dc3cd5ae1cf238b36eaf84d74[m
+Author: danmic94 <micdan1994@gmail.com>
+Date:   Tue Jun 23 15:49:12 2015 +0300
+
+    Bx Slider fix
+
+[33mcommit a8095bed77e513e74e474ab1e4636adf1948b700[m
+Merge: 8c7525d d2d5fe6
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Tue Jun 23 14:37:38 2015 +0300
+
+    Fixed conflicts
+
+[33mcommit 8c7525da0cfa2eca5d56f8a7145d589e184e513f[m
+Merge: cd44317 514f73d
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Tue Jun 23 14:28:32 2015 +0300
+
+    BxSlider2
+
+[33mcommit d2d5fe6b81dcc37bf4671ff16ee0ab3feb16982a[m
+Author: danmic94 <micdan1994@gmail.com>
+Date:   Tue Jun 23 14:16:07 2015 +0300
+
+    Added icons and delete nonsensical items
+
+[33mcommit aeba5386654b0877ad360ea36d14c99dfb0931ce[m
+Author: danmic94 <micdan1994@gmail.com>
+Date:   Tue Jun 23 13:47:34 2015 +0300
+
+    Small cleanup
+
+[33mcommit c4ffc3c2590b1988248538f5597a3b4bde020b00[m
+Author: danmic94 <micdan1994@gmail.com>
+Date:   Tue Jun 23 13:38:45 2015 +0300
+
+    Added p and style
+
+[33mcommit 514f73da247a870e088bca1234f5f3a6be63e7ab[m
+Author: danmic94 <micdan1994@gmail.com>
+Date:   Tue Jun 23 13:29:25 2015 +0300
+
+    Started the 4 column section
+
+[33mcommit cd44317b4cc4ddfaf9cbe58e20f10b34ad8a3e19[m
+Merge: dcfa276 e77086d
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Tue Jun 23 13:04:54 2015 +0300
+
+    Final before major update
+
+[33mcommit dcfa27691a60a010d3eb98fbf973d2ad1d0f21a6[m
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Tue Jun 23 12:46:14 2015 +0300
+
+    New changes
+
+[33mcommit e77086d1a732bd42959aff2d6ea5f0b90cfccb2b[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Tue Jun 23 12:12:24 2015 +0300
+
+    update'
+
+[33mcommit 9fb813ecf337f3383759558aff8e057710028235[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Tue Jun 23 10:53:24 2015 +0300
+
+    Made tweaks for responsivness.
+
+[33mcommit a66df81b98e1c7be694e62f9268ab5f97364713b[m
+Merge: ad8cf1f d2934b2
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Mon Jun 22 15:14:31 2015 +0300
+
+    Finished conflicts
+
+[33mcommit ad8cf1fb209ab9b4115c999fd145a2ae9936c52f[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Mon Jun 22 15:11:34 2015 +0300
+
+    Added relative size to circles
+
+[33mcommit d2934b2d917e092c182319a2f450ba40c58c2e84[m
+Merge: 6321790 6c4435d
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Mon Jun 22 14:33:35 2015 +0300
+
+    fixed bugs
+
+[33mcommit 632179092ae9a78cde486ed7a725810e2a0ec07b[m
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Mon Jun 22 14:29:30 2015 +0300
+
+     slider changes
+
+[33mcommit 6c4435d4f7f909fe03c660ae14722ba5519ccef3[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Mon Jun 22 14:25:54 2015 +0300
+
+    Fixed conflicts
+
+[33mcommit f7d7878fbf6e08dc8bb407d03de654b0acf15b5a[m
+Merge: ccfbc6e 72b601d
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Mon Jun 22 14:19:31 2015 +0300
+
+    slider
+
+[33mcommit 72b601d9d3d09335ce01e082c44642887be236b0[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Mon Jun 22 14:13:50 2015 +0300
+
+    Fixed image paths
+
+[33mcommit ccfbc6e735c3f5c3edfec684e2c2efd778bc3314[m
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Mon Jun 22 14:12:33 2015 +0300
+
+    slider
+
+[33mcommit 8909881e38bb28f661bac29385d410bed18e1f5d[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Mon Jun 22 14:12:23 2015 +0300
+
+    Aligned third div
+
+[33mcommit 9fad1fa2e0a1f4a92400a8faca4ab5b9b4181367[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Mon Jun 22 14:00:59 2015 +0300
+
+    Finished the article div
+
+[33mcommit a79e44c10c6ae404bcc1a6fdf01c21c189cc2138[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Mon Jun 22 08:41:13 2015 +0300
+
+    Fixed some indentation problems
+
+[33mcommit 32fcb9fda4f0f9a6b983701d228e066f7267cb42[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Fri Jun 19 16:31:49 2015 +0300
+
+    Made HTML beautiful
+
+[33mcommit f7622d7a7026a4062101f5ecc6f3caf9b19aa5f4[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Fri Jun 19 15:36:56 2015 +0300
+
+    Beautified the main.css
+
+[33mcommit 9da6a914dba692216bc1b110e177e69bdfe297dd[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Fri Jun 19 15:33:42 2015 +0300
+
+    Fixed article area.
+
+[33mcommit c4173bb9cea10588bd52178598ab9558e679c4a9[m
+Merge: ba539b5 bd79456
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Fri Jun 19 15:15:23 2015 +0300
+
+    Merge branch 'master' of https://gitlab.com/danmic94/forextemplate
+
+[33mcommit ba539b598a6459f1be081c565f680f97a0f3b3e6[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Fri Jun 19 15:14:58 2015 +0300
+
+    Commented CSS and HTML and tidyed up a little bit
+
+[33mcommit bd794567aa663012a65e4351100c473c6e04e313[m
+Merge: a4283fa 186cf02
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Fri Jun 19 15:01:54 2015 +0300
+
+    Merge branch 'master' of https://gitlab.com/danmic94/forextemplate
+
+[33mcommit a4283fa21ced716ee948eb7af73561ca367ea7dc[m
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Fri Jun 19 15:00:59 2015 +0300
+
+    Offset divs
+
+[33mcommit 186cf02ab2eca138cd404364191b7888c909927b[m
+Merge: 6b4a9f1 8c9bb2e
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Fri Jun 19 14:28:27 2015 +0300
+
+    Merge branch 'master' of https://gitlab.com/danmic94/forextemplate
+
+[33mcommit 6b4a9f131197040ff77c2ae1b9f39ef8efa55f9b[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Fri Jun 19 14:27:39 2015 +0300
+
+    Added fonts and tweakd X icon
+
+[33mcommit 8c9bb2ecc537add72737f8038d4b52cf18a27692[m
+Merge: adf4022 7ffe1d1
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Fri Jun 19 14:25:00 2015 +0300
+
+    Merge branch 'master' of https://gitlab.com/danmic94/forextemplate
+
+[33mcommit adf4022c3078a93bb57f17dd3396f25524648275[m
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Fri Jun 19 14:22:24 2015 +0300
+
+    div articles
+
+[33mcommit 7ffe1d153c6766375ecedcbb12ab65f63496e754[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Fri Jun 19 13:03:04 2015 +0300
+
+    Small tweaks regarding margins
+
+[33mcommit c123d2987034f32a247e903ecc8e52b9f63b3d04[m
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Fri Jun 19 11:48:02 2015 +0300
+
+    image bug fixed
+
+[33mcommit a1fb17872e6c15031e29a5f60db2144dcbdfb868[m
+Merge: fd0adec 5450751
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Fri Jun 19 11:42:39 2015 +0300
+
+    Fixed merge conflict
+
+[33mcommit fd0adecfb516b33eeacc56689c34ba661b9ef8b8[m
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Fri Jun 19 11:32:37 2015 +0300
+
+    Structured div .row with 3 columns and text align.
+
+[33mcommit 54507514d414fa0fbd7c3e299e07a0a0f89041ad[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Fri Jun 19 11:24:06 2015 +0300
+
+    Finished .fifth and tweaked X icon plus shop list style and linked
+
+[33mcommit aa140dcae7b4c06360fa1a55cdca5e927af2ff83[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Thu Jun 18 16:36:33 2015 +0300
+
+    Finished the .fifth div with a text and button.
+
+[33mcommit 73ad407fac3b35a10be0e9de550e4c79f37b58eb[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Thu Jun 18 14:22:09 2015 +0300
+
+    Fixed person.png path
+
+[33mcommit 26807710d78c6baeb7bb4e065cb7e41a5f3d5c84[m
+Author: adelinaPamf <adelina.pamfilie@gmail.com>
+Date:   Thu Jun 18 14:12:13 2015 +0300
+
+    Added person.png to div .four
+
+[33mcommit 734ac601d8989926ef1be789c45ce24e48010840[m
+Author: Dan Nicolae Mic <micdan1994@gmail.com>
+Date:   Thu Jun 18 12:47:10 2015 +0300
+
+    Header almost finished
