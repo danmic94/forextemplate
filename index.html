@@ -304,20 +304,24 @@
     </div>
     </div>
     </div>
-        <div class="work container-fluid">
-            <p>Our Latest Work / <a href="#">View All Work</a></p>
-            <div class="slider1">
-                <div class="slide">
-                    <img src="img/work_slider/layer1.png">
-                    <div class="undertext-slider">
-                        <span class="pull-left">Awesome Design</span>
 
-                        <span class="glyphicon glyphicon-share-alt pull-right"></span>
-                        <span class="glyphicon glyphicon-heart pull-right"></span>
-                        <div style="clearfix"></div>
-                    </div>
-                </div>
-        
+<div class="work container-fluid">
+    <p>Our Latest Work / <a href="#">View All Work</a></p>
+    <div class="outside">
+    <span  class="glyphicon glyphicon-menu-right"></span>
+    <span  class="glyphicon glyphicon-menu-left"></span>
+    </div>
+    <div class="slider1">
+        <div class="slide">
+            <img src="img/work_slider/layer1.png">
+            <div class="undertext-slider">
+                <span class="pull-left">Awesome Design</span>
+
+                <span class="glyphicon glyphicon-share-alt pull-right"></span>
+                <span class="glyphicon glyphicon-heart pull-right"></span>
+                <div style="clearfix"></div>
+            </div>
+        </div>
         <div class="slide">
             <img src="img/work_slider/layer2.png">
             <div class="undertext-slider">
@@ -428,6 +432,10 @@
         slideMargin: 10,
         pager:true,
         controls:true,
+         nextSelector: '.glyphicon glyphicon-menu-right',
+         prevSelector: '.glyphicon glyphicon-menu-left',
+         nextText: '',
+         prevText: '',
         onSliderLoad: function() {
             $('.slider1').parent().next().addClass('slider1');
             var items_on_viewport = Math.floor(parseInt($('.slider1').parent().width()) / parseInt($('.slider1 .slide').width()));
