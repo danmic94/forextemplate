@@ -307,6 +307,10 @@ Customer Support
 </div>
 <div class="work container-fluid">
     <p>Our Latest Work / <a href="#">View All Work</a></p>
+    <div class="outside">
+    <span  class="glyphicon glyphicon-menu-right"></span>
+    <span  class="glyphicon glyphicon-menu-left"></span>
+    </div>
     <div class="slider1">
         <div class="slide">
             <img src="img/work_slider/layer1.png">
@@ -421,6 +425,10 @@ Customer Support
         slideMargin: 10,
         pager:true,
         controls:true,
+         nextSelector: '.glyphicon glyphicon-menu-right',
+         prevSelector: '.glyphicon glyphicon-menu-left',
+         nextText: '',
+         prevText: '',
         onSliderLoad: function() {
             $('.slider1').parent().next().addClass('slider1');
             var items_on_viewport = Math.floor(parseInt($('.slider1').parent().width()) / parseInt($('.slider1 .slide').width()));

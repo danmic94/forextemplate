@@ -445,6 +445,7 @@ div.section p.text{
     text-align: center;
     padding-top: 10px;
     font-size:13px;
+    padding-bottom: 25px;
 }
 hr {
     border: 0;
@@ -477,9 +478,9 @@ hr {
     position:relative;
     background: #d3d2d2;;
     width:50px;
-    height:50px;   
-    -webkit-border-radius: 50px;  
-    -moz-border-radius: 50px;  
+    height:50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
     border-radius: 50px;
 }
 .align-icons{
@@ -510,11 +511,12 @@ div.section .circle:hover {
     bottom: 120px;
     left: 50px;
 }
+/*Allign the icons in the circle*/
 .heart{
     margin-top: 14px;
 }
 .trophy{
-    margin-left: 12px;
+    margin-left: 10px;
 }
 .thumb{
     margin-left: 13px;
@@ -522,15 +524,17 @@ div.section .circle:hover {
 .paper-plane{
     margin-top: 13px;
 }
-div.section ul.dash li:before{
+
+/* Styling the columns and icons-circles from div.section*/
+div.section div.info-container ul.dash li:before{
     content: "\2014 \00a0";
     color: #4CAED5;
 }
-div.section ul.dash li{
+div.section div.info-container ul.dash li{
     color: #b5b5b5;
     font-size: 13px;
 }
-.list-allign{
+div.info-container ul.list-allign{
     position: relative;
     top: -20px;
     right: -30px;
@@ -543,15 +547,6 @@ div.section ul.dash li{
     position: absolute;
     top: -15px;
 }
-.slider1 .bx-controls-direction
-{
-  position: relative;
-  top: -350px;
-  margin-right: 30px;
-  padding: 5px;
-  float:right;
-}
-
 .slider1 .bx-pager .bx-pager-item a {
     width: 100%;
     background: transparent;
@@ -566,4 +561,44 @@ div.section ul.dash li{
 
 .slider1 .bx-pager .bx-pager-item a.active {
     background-color: #d3d2d2;
+}
+.outside span{
+   background-color: #dadada;
+  height: 25px;
+  width: 20px;
+  padding: 5px;
+  margin: 2px;
+  float: right;
+  position: relative;
+  top: -60px;
+  right: 80px;
+}
+/*Info Container*/
+.info-container {
+    text-align: center;
+}
+
+.info-container ul {
+    text-align: left;
+    display: inline-block;
+}
+div.promoter{
+    height: 160px;
+    background-image: url("../img/promoter.png");
+    background-repeat: no-repeat;
+}
+div.promoter p{
+    display: inline-block;
+    margin: 0;
+    padding-top: 60px;
+    font-family: 'robotoregular';
+    font-size: 20px;
+    color: white;
+}
+div.promoter a{
+    display: inline-block;
+    margin-left: 390px;
+}
+div.col-xs-offset-3.col-sm-offset-0.col-xs-7.col-md-3.info-container{
+    padding-bottom: 20px;
 }
