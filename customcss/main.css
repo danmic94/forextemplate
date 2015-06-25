@@ -530,6 +530,10 @@ div.section ul.dash li{
     color: #b5b5b5;
     font-size: 13px;
 }
+div.section{
+    padding-bottom: 58px;
+    padding-top: 51px;
+}
 .list-allign{
     position: relative;
     top: -20px;
