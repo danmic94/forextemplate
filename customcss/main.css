@@ -433,14 +433,14 @@ button.right {
 .navbar-toggle {
     border: 1px solid silver;
 }
-div.section p.heading{
+p.heading {
     font-family: 'robotoregular', sans-serif;
     text-align: center;
     font-size:26px;
     padding-top: 30px;
     padding-bottom: 10px;
 }
-div.section p.text{
+p.text{
     font-family: "OpenSans", sans-serif;
     text-align: center;
     padding-top: 10px;
@@ -601,4 +601,15 @@ div.promoter a.button-style{
     border: 2px solid white;
     text-align: center;
     padding-top: 10px;
+    -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+div.our-features {
+    height: 640px;
+}
+div.form-horizontal {
+    color: silver;
 }
