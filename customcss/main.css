@@ -613,9 +613,6 @@ div.our-features {
 div.form-horizontal {
     color: silver;
 }
-.our-features a{
-    color:#219fd1;
-}
 
 .nav.nav-tabs{
     margin-top:25px;
@@ -675,16 +672,19 @@ div.form-horizontal {
   margin: 10px;
   padding: 5px;
 }
- h5 {
+.impression h5 {
     font-weight: bold;
     padding-top:20px;
 }
-h6{   font-weight: bold;
+.impression h6{   
+    font-weight: bold;
     margin:10px;
 }
-.col-md-3 a{
+.impression a{
+    color:#219fd1;
     float:right;
 }
+
 .progress-bar{
     background-color: #219fd1;
 }
