@@ -381,7 +381,6 @@ div.inner-circle {
 }
 
 .fifth .left {
-    /* margin-left: 25%; */
     font-family: 'robotobold', sans-serif;
 }
 
@@ -412,7 +411,7 @@ button.left {
     font-family: 'robotoregular', sans-serif;
     height: 44px;
     background-color: #219fd1;
-    box-shadow: 0px 1px 0px #0883b3;
+    box-shadow: 0px 3px 0px #0883b3;
 }
 
 button.right {
@@ -517,7 +516,7 @@ div.section .circle:hover {
     margin-top: 14px;
 }
 .trophy{
-    margin-left: 10px;
+    margin-left: 12px;
 }
 .thumb{
     margin-left: 13px;
@@ -622,19 +621,51 @@ div.form-horizontal {
     border-right: 1px solid #219fd1;
 }
 .feather {
-    background-image: url('..\img\icons\feather.png') no-repeat top right;
+    background-image: url('img\feather.png') no-repeat top right;
+    border-radius: 0;
 }
 .borderless-form {
     border-right: none;
+    border-radius: 0;
 }
 .input-group-addon {
     background-color: white;
+    border-radius: 0;
 }
 .daniel {
     font-family: 'danielregular';
     text-align: center;
-    font-size: 23px;
+    font-size: 19px;
     color: #219fd1;
+    padding-top: 10px;
+}
+.form-container {
+    background-color: #f5f5f5;
+    border: 1px solid #ebebeb;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.bluebutton {
+    font-family: 'robotobold' , sans-serif;
+    background-color: #219fd1;
+    box-shadow: 0px 3px 0px #0883b3;
+    border: none;
+    color: white;
+}
+.bluebutton:hover{
+    background-color: #219fd1;
+    color: white;
+}
+.remove-all {
+    display: inline-block;
+    margin-left: 2px;
+    padding-bottom: 2px;
+}
+.clearall {
+    color: #219fd1;
+    margin-top: 5px;
+    margin-left: 64px;
+    display: inline-block;
 }
 .guy{
     float: left;
