@@ -617,6 +617,9 @@ div.form-horizontal {
     color:#219fd1;
 }
 
+.nav.nav-tabs{
+    margin-top:25px;
+}
 .nav.nav-tabs li:not(:last-child) a {
     border-right: 1px solid #219fd1;
 }
@@ -672,7 +675,16 @@ div.form-horizontal {
   margin: 10px;
   padding: 5px;
 }
-.composer h5 {
+ h5 {
     font-weight: bold;
     padding-top:20px;
+}
+h6{   font-weight: bold;
+    margin:10px;
+}
+.col-md-3 a{
+    float:right;
+}
+.progress-bar{
+    background-color: #219fd1;
 }
