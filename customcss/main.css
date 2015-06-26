@@ -636,3 +636,12 @@ div.form-horizontal {
     font-size: 23px;
     color: #219fd1;
 }
+.guy{
+    float: left;
+  margin: 10px;
+  padding: 5px;
+}
+.composer h5 {
+    font-weight: bold;
+    padding-top:20px;
+}
