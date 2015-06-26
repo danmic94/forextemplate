@@ -688,3 +688,12 @@ div.form-horizontal {
 .progress-bar{
     background-color: #219fd1;
 }
+.statistics{
+    font-family: "robotoregular";
+    background-color: #219fd1;
+    text-align: center;
+    padding:5px;
+    color:white;
+    box-shadow: 0px 3px 0px #0883b3;
+}
+
