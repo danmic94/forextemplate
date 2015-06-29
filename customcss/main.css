@@ -66,25 +66,12 @@
     margin: 0;
 }
 /*Top right delete button*/
-
-button.btn.btn-link {/*
-    float: right;
-    height: 50px;
-    position: relative;
-    width: 50px;
-    right: 70px;
-    bottom: 54px;
-    padding-top: 25px;*/
-}
-
 span {
     color: rgba(255, 255, 255, 0.71);
 }
 /*The new sigil*/
 
 .stamp {
-    /* float: left; */
-    /* margin-left: 5%; */
     position: absolute;
     left: -90px;
 }
@@ -156,7 +143,6 @@ ul.shop-icons {
 
 .soc li {
     display: inline-block;
-    *display: inline;
     zoom: 1;
 }
 
@@ -298,17 +284,8 @@ li a: hover{
       border: 1px solid #e3e3e3;
     margin-top: 70px;
 }
-/*
-div.articles img{
-    margin-left: 1%;
-    margin-bottom: 1%
-}
-*/
 div.articles a{
     color: #219fd1;
-}
-div.articles h4{
-    /*margin-top: 50px;*/
 }
 .border-grey{
     border: 1px solid #e3e3e3;
@@ -403,7 +380,6 @@ div.inner-circle {
     margin-left: auto;
     margin-right: auto;
     width: 260px;
-    /* height: 44px; */
     margin-bottom: 40px;
 }
 
@@ -574,7 +550,7 @@ div.section{
   float: right;
   position: relative;
   top: -60px;
-  right: 80px;  
+  right: 80px;
 }
 div.promoter {
     height: 169px;
@@ -621,7 +597,7 @@ div.form-horizontal {
     border-right: 1px solid #219fd1;
 }
 .feather {
-    background-image: url('img\feather.png') no-repeat top right;
+    background-image: url('img/feather.png') no-repeat top right;
     border-radius: 0;
 }
 .borderless-form {
@@ -669,8 +645,8 @@ div.form-horizontal {
 }
 .guy{
     float: left;
-  margin: 10px;
-  padding: 5px;
+    margin: 10px;
+    padding: 5px;
 }
 .impression h5 {
     font-weight: bold;
