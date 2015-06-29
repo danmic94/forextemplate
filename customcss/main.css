@@ -613,7 +613,7 @@ div.form-horizontal {
 .daniel {
     font-family: 'danielregular';
     text-align: center;
-    font-size: 19px;
+    font-size: 20px;
     color: #219fd1;
     padding-top: 10px;
 }
@@ -622,6 +622,13 @@ div.form-horizontal {
     border: 1px solid #ebebeb;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    height: 380px;
+}
+.form-horizontal{
+    margin-top: 40px;
+}
+.lower-button{
+    margin-top: 50px;
 }
 .bluebutton {
     font-family: 'robotobold' , sans-serif;
@@ -659,6 +666,21 @@ div.form-horizontal {
     font-weight: bold;
     margin:10px;
 }
+.h5comp {
+    padding-top: 14px;
+    margin-bottom: 8px;
+}
+.pcomp{
+    font-family: "OpenSans", sans-serif;
+    font-size: 13px;
+}
+div.composer ul{
+    padding-top: 40px;
+}
+.mini-rocket{list-style-image:url('../img/composer-icons/mini-rocket.png');}
+.mini-paperplane{list-style-image:url('../img/composer-icons/mini-paper-plane.png');}
+.mini-user{list-style-image:url('../img/composer-icons/mini-user.png');}
+.mini-rewind{list-style-image:url('../img/composer-icons/mini-rewind.png');}
 .impression a{
     color:#219fd1;
     float:right;
