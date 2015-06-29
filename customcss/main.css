@@ -753,9 +753,18 @@ div.rating div.container {
     text-align: :left;
     color:white;
 }
+<<<<<<< HEAD
 /*Align small arrow-right arrows*/
 .small-right{
     margin-left: 2px;
     padding-bottom: 2px;
 }
+=======
+.latestNews ul{
+    list-style-type: none;
+    padding:2px;
+    margin: 0px;
+}
+
+>>>>>>> 8971342ff158ea20ba53d0e8b486c60258969020
 
