@@ -719,7 +719,6 @@ div.rating div.container {
 }
 /*Styling 4 divs with statistics*/
 .statistics{
-    font-family: "robotoregular";
     background-color: #219fd1;
     text-align: center;
     padding:5px;
@@ -732,22 +731,63 @@ div.rating div.container {
     border-top: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1;
 }
-.latest-blog h5{
+.latest-blog .btn-group {
+    font-size: xx-small;
+    border-radius: 0;
+    border-radius: 0;
+}
+div.latest-blog div.btn-group img {
+    padding-bottom: 3px;
+    padding-right: 2px;
+}
+div.latest-blog div.btn-group .btn {
+    padding: 3px;
+    padding-left: 5px;
+}
+.noborderleft {
+    border-left: 0;
+}
+.sharpcorner {
+    border-radius: 0;
+}
+
+.latest-blog h5.top{
     display: inline-block;
+    font-family: 'robotoregular' , sans-serif;
     font-weight: bold;
     margin-bottom: 0;
+    margin-right: 970px;
+    margin-top: 30px;
+}
+.latest-blog h5.right {
+    font-family: 'robotoregular' , sans-serif;
 }
 .latest-blog hr {
     margin-top: 5px;
 }
-.latest-blog a {
-    display: inline-block;
-    margin-left: 1060px;
-}
+.latest-blog a {    font-family: "robotoregular";
 
+    display: inline-block;
+    font-family: 'robotoregular' , sans-serif;
+    font-style: italic;
+    color: #2fa5d4;
+}
+.greytext {
+    color: #6f6f6f;
+}
+.col-md-3 p {
+    margin-top: 10px;
+}
+/*Our Clients*/
+.our-clients {
+    height: 70px;
+    background-color: #f1f1f1;
+}
+.our-clients img {
+    padding-top: 10px;
+}
 /*Latest News's Section*/
 .bottomSection{
-    margin:20px;
     padding:20px;
     background-color: #343434;
     text-align: :left;
