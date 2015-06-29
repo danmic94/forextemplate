@@ -777,9 +777,12 @@ div.latest-blog div.btn-group .btn {
 .bottomSection{
     margin:20px;
     padding:20px;
-    background-color: black;
+    background-color: #343434;
     text-align: :left;
     color:white;
+}
+.bottomSection p{
+  color: #6e6f6f;
 }
 /*Align small arrow-right arrows*/
 .small-right{
@@ -788,7 +791,29 @@ div.latest-blog div.btn-group .btn {
 }
 .latestNews ul{
     list-style-type: none;
-    padding:2px;
+    padding:0px;
     margin: 0px;
 }
-
+.latestNews li{
+     color: #6e6f6f;
+}
+.latestNews li: hover{
+    background-color:#219fd1;
+}
+hr.style-three {
+    border: 0;
+    margin-left:5px;
+    border-bottom: 1px dashed #ccc;
+    background: #7d7d7d;
+}
+/* Styling Subscribe's sections*/
+.subScribe button{
+  position: relative;
+  left: 150px;
+  margin: 20px;
+}
+.logoBright{
+    display :inline-block;
+    position:relative;
+    top:-60px;
+}
