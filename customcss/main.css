@@ -784,8 +784,36 @@ hr.style-three {
   left: 150px;
   margin: 20px;
 }
-.logoBright{
-    display :inline-block;
+.subScribe img{
+    display:inline-block;
+    margin-right:8px;
+}
+.subScribe p {
+    font-size: 13px;
+}
+.subScribe input{
+    background-color :#3d3d3d;
+    border:0px;
+}
+/*Styling aboutUs's section*/
+ .rectangle-wrap{
+    display: inline-block;
     position:relative;
-    top:-60px;
+    background:#7d7d7d;
+    width:150px;
+    height:50px;
+    -moz-border-radius: 50px;
+  
+ }
+ .inner-rectangle{
+    display: inline-block;
+    position:relative;
+    background:#3e3e3e;;
+    width:140px;
+    height:45px;
+    -moz-border-radius: 50px;
+ }
+.logoBright img{
+   float:left;
+   width: 150px;
 }
