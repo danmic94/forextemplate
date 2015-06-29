@@ -830,6 +830,7 @@ hr.style-three {
 }
 .subScribe p {
     font-size: 13px;
+    display: inline-block;
 }
 .subScribe input{
     background-color :#3d3d3d;
