@@ -298,17 +298,9 @@ li a: hover{
       border: 1px solid #e3e3e3;
     margin-top: 70px;
 }
-/*
-div.articles img{
-    margin-left: 1%;
-    margin-bottom: 1%
-}
-*/
+
 div.articles a{
     color: #219fd1;
-}
-div.articles h4{
-    /*margin-top: 50px;*/
 }
 .border-grey{
     border: 1px solid #e3e3e3;
@@ -544,6 +536,7 @@ div.section{
     right: -30px;
     list-style: none;
 }
+/* Styling carousel from work' s section */
 .slider1 .bx-pager {
     background-color: #e1e1e1;
     padding-top: 0;
@@ -566,6 +559,7 @@ div.section{
 .slider1 .bx-pager .bx-pager-item a.active {
     background-color: #d3d2d2;
 }
+/*Styling the next and prev buttons*/
 .x,.y{ background-color: #dadada;
   height: 25px;
   width: 20px;
@@ -613,7 +607,7 @@ div.our-features {
 div.form-horizontal {
     color: silver;
 }
-
+/* Styling nav bar from our-features's section*/
 .nav.nav-tabs{
     margin-top:25px;
 }
@@ -667,6 +661,7 @@ div.form-horizontal {
     margin-left: 64px;
     display: inline-block;
 }
+/*Styling composer's section*/
 .guy{
     float: left;
   margin: 10px;
@@ -688,6 +683,7 @@ div.form-horizontal {
 .progress-bar{
     background-color: #219fd1;
 }
+/*Styling 4 divs with statistics*/
 .statistics{
     font-family: "robotoregular";
     background-color: #219fd1;
@@ -695,5 +691,15 @@ div.form-horizontal {
     padding:5px;
     color:white;
     box-shadow: 0px 3px 0px #0883b3;
+}
+/*Styling bottom's section*/
+
+/*Latest News's Section*/
+.bottomSection{
+    margin:20px;
+    padding:20px;
+    background-color: black;
+    text-align: :left;
+    color:white;
 }
 
