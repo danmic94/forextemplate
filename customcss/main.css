@@ -677,6 +677,10 @@ div.form-horizontal {
 div.composer ul{
     padding-top: 40px;
 }
+.mini-rocket{list-style-image:url('../img/composer-icons/mini-rocket.png');}
+.mini-paperplane{list-style-image:url('../img/composer-icons/mini-paper-plane.png');}
+.mini-user{list-style-image:url('../img/composer-icons/mini-user.png');}
+.mini-rewind{list-style-image:url('../img/composer-icons/mini-rewind.png');}
 .impression a{
     color:#219fd1;
     float:right;
