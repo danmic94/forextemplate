@@ -772,10 +772,22 @@ div.latest-blog div.btn-group .btn {
     font-style: italic;
     color: #2fa5d4;
 }
-
+.greytext {
+    color: #6f6f6f;
+}
+.col-md-3 p {
+    margin-top: 10px;
+}
+/*Our Clients*/
+.our-clients {
+    height: 70px;
+    background-color: #f1f1f1;
+}
+.our-clients img {
+    padding-top: 10px;
+}
 /*Latest News's Section*/
 .bottomSection{
-    margin:20px;
     padding:20px;
     background-color: #343434;
     text-align: :left;
