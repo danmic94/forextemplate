@@ -686,4 +686,10 @@ div.form-horizontal {
     text-align: :left;
     color:white;
 }
+.latestNews ul{
+    list-style-type: none;
+    padding:2px;
+    margin: 0px;
+}
+
 
