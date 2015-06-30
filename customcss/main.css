@@ -431,7 +431,8 @@ hr.grey {
     width:2px;
     color: #e1e1e1;
     width: 260px;
-    margin-left: 0;
+    margin: 0;
+    margin-bottom: 27px;
 }
 .work{
     background-color: #F1F1F1; 
