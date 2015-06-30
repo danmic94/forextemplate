@@ -874,6 +874,17 @@ hr.style-three {
     padding-top: 11px;
     padding-left: 21px;
 }
+#navtabs {
+    padding: 0;
+}
+@media screen and (max-width: 768px) {
+    #navtabs li a {
+        border-right: none;
+    }
+    #navtabs li {
+        width: 100%;
+    }
+
 .copyright {
     margin-top: 18px;
     color: #7b7c7c;
