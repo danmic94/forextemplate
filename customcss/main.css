@@ -796,7 +796,7 @@ div.latest-blog div.btn-group .btn {
 }
 /*Latest News's Section*/
 .bottomSection {
-    padding:20px;
+    padding-bottom:100px;
     background-color: #343434;
     text-align: left;
     color:white;
@@ -806,6 +806,7 @@ div.subScribe {
 }
 .bottomSection p{
   color: #6e6f6f;
+
 }
 /*Align small arrow-right arrows*/
 .small-right{
@@ -883,6 +884,7 @@ hr.style-three {
     #navtabs li {
         width: 100%;
     }
+}
 
 .copyright {
     margin-top: 18px;
